@@ -1,0 +1,6 @@
+com/example/demo/DemoApplication.class
+com/example/demo/Configuration/IncomeBoundaryProperties$TaxZone.class
+com/example/demo/RestController/TaxRequestRestEndpoint.class
+com/example/demo/Service/TaxService.class
+com/example/demo/Configuration/IncomeBoundaryProperties.class
+com/example/demo/Entity/TaxRequest.class

@@ -1,5 +1,5 @@
-/home/christian/Documents/repo/tax/demo/src/main/java/com/example/demo/Configuration/IncomeBoundaryProperties.java
-/home/christian/Documents/repo/tax/demo/src/main/java/com/example/demo/DemoApplication.java
-/home/christian/Documents/repo/tax/demo/src/main/java/com/example/demo/Entity/TaxRequest.java
-/home/christian/Documents/repo/tax/demo/src/main/java/com/example/demo/RestController/TaxRequestRestEndpoint.java
-/home/christian/Documents/repo/tax/demo/src/main/java/com/example/demo/Service/TaxService.java
+/home/christian/Documents/repo/taxCalculatorApi/src/main/java/com/example/demo/Configuration/IncomeBoundaryProperties.java
+/home/christian/Documents/repo/taxCalculatorApi/src/main/java/com/example/demo/DemoApplication.java
+/home/christian/Documents/repo/taxCalculatorApi/src/main/java/com/example/demo/Entity/TaxRequest.java
+/home/christian/Documents/repo/taxCalculatorApi/src/main/java/com/example/demo/RestController/TaxRequestRestEndpoint.java
+/home/christian/Documents/repo/taxCalculatorApi/src/main/java/com/example/demo/Service/TaxService.java

@@ -17,6 +17,6 @@ public class TaxRequestRestEndpoint {
 
     @PostMapping("/hello")
     public String getHello(@Valid @RequestBody TaxRequest taxableIncome){
-        return taxService.calculateNet(taxableIncome.taxableIncome()).toString();
+        return taxService.calculateNet(taxableIncome.taxableIncome(), taxableIncome.taxClass()).toString();
     }
 }

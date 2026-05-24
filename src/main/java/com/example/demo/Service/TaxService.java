@@ -16,10 +16,12 @@ public class TaxService{
     }
 
 
-    public Double calculateNet(Double taxableIncome)
+    public Double calculateNet(Double taxableIncome, Integer taxClass)
     {
         logger.info("logger läuft");
-        logger.info(incomeBoundaryProperties.taxZoneThree().lowerBoundary().toString());
+        logger.info(
+            "tax class: " + taxClass
+        );
 
         return calculateAmountZone1(taxableIncome)
                 + calculateAmountZone2(taxableIncome)

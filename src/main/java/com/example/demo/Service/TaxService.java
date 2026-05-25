@@ -54,5 +54,4 @@ public class TaxService{
     private Double calculateAmountZone5(Double taxableIncome) {
         return 0.0;
     }
-
 }

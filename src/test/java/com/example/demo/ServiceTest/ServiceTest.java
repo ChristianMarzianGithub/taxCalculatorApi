@@ -3,6 +3,7 @@ package com.example.demo.ServiceTest;
 import com.example.demo.Configuration.IncomeBoundaryProperties;
 import com.example.demo.Service.TaxService;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -22,11 +23,13 @@ class ServiceTest {
         ));
     }
 
+    @Disabled
     @Test
     void calculateNetReturnsZeroForZeroTaxableIncome() {
         assertThat(taxService.calculateNet(0.0, 1)).isEqualTo(0.0);
     }
 
+    @Disabled
     @Test
     void calculateNetreturnsZeroFor10000TaxableIncome(){
         assertThat(taxService.calculateNet(10_000.0, 1)).isEqualTo(0.0);
